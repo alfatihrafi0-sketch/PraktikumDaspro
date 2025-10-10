@@ -1,0 +1,18 @@
+package jobsheet5;
+import java.util.Scanner;
+public class ternaryOperatorCetakKRS18 {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+   
+    System.out.println("-- cetak KRS SIAKAD --");
+    System.out.println("Apakah UKT Sudah lunas? (true/false): "); 
+    boolean uktlunas = sc.nextBoolean();
+    
+    String pesan = uktlunas
+        ?"Pembayaran UKT terverifikasi\nSilahkan cetak KRS dan minta tanda tangan DPA"
+        :"Registrasi ditolak\nSilahkan lunasi UKT terlebih dahulu";
+    
+        System.out.println(pesan);    
+    }
+    
+}
