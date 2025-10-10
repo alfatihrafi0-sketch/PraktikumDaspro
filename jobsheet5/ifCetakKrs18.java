@@ -9,8 +9,9 @@ public class ifCetakKrs18 {
     
     if (uktlunas) {
         System.out.println("pembayaran ukt terverifikasi");
-        System.out.println("silahkan cetak KRS dan mi nta tanda tangan DPA");
-    }
+        System.out.println("silahkan cetak KRS dan minta tanda tangan DPA");
+    } else 
+        System.out.println("Registrasi di tolak. Silahkan lunasi UKT terlebih dahulu");    
     }
     
 }
